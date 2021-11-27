@@ -1,0 +1,28 @@
+{
+  "name": "animatedtgs",
+  "version": "1.0.0",
+  "description": "Sticky API testing",
+  "main": "server.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JinsoRaj/AnimatedTgs.git"
+  },
+  "keywords": [
+    "tgs",
+    "StickyApp",
+    "AnimatedStickers"
+  ],
+  "author": "Jinso Raj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JinsoRaj/AnimatedTgs/issues"
+  },
+  "homepage": "https://github.com/JinsoRaj/AnimatedTgs#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "text-to-svg": "^3.1.5"
+  }
+}
