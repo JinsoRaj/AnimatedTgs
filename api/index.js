@@ -3,6 +3,7 @@ const express = require('express');
 const { json } = require('express');
 const app = express();
 app.use(express.json());
+app.use(express.static('fonts')) 
 
 app.get('/text2svg', async(req, res) => {
 
