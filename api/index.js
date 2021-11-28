@@ -48,7 +48,7 @@ app.get('/text2svg', async(req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.redirect('https://github.com/JinsoRaj/AnimatedTgs#readme');
+    res.redirect('https://github.com/JinsoRaj/Text2Svg#readme');
 });
     
 const port = process.env.PORT || 3000;
