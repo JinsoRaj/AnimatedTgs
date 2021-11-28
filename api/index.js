@@ -27,7 +27,7 @@ app.get('/text2svg', async(req, res) => {
     const svgTag = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512">`
 
     const defsvgPath = TextToSVG.loadSync().getPath(`${text}`, options);
-    const btbsvgPath = TextToSVG.loadSync('./fonts/BacktoBlack.ttf').getPath(`${text}`, options);
+    const btbsvgPath = TextToSVG.loadSync('./api/fonts/BacktoBlack.ttf').getPath(`${text}`, options);
     const bcsvgPath  = TextToSVG.loadSync('./api/fonts/Blkchcry.ttf').getPath(`${text}`, options);
     const cfsvgPath  = TextToSVG.loadSync('./api/fonts/CafeFrancoise.otf').getPath(`${text}`, options);
     const crsvgPath  = TextToSVG.loadSync('./api/fonts/CookieRegular.ttf').getPath(`${text}`, options);
