@@ -11,10 +11,5 @@
     }],
     "github": {
         "enabled": true
-      },
-      "functions": {
-          "api/index.js": {
-            "includeFiles": "api/fonts/**"
-          }
-        }
+      }
 }
